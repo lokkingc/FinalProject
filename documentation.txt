@@ -1,0 +1,25 @@
+You start the project by running main.py. It will then prompt
+you to input a command, which you can see the list of by
+inputting help. The descriptions of each command will also
+be listed. Then input the command with the proper parameters
+and it will run the command. Commands include:
+
+addstock, which adds stock to the database based on a csv file
+adjustprice, which changes the price of a specific item
+clearstock and cleartrans, which clear the stock and transaction tables respectively
+savestock and savetrans, which save the stock and transaction tables to a csv file
+removeitem, which removes an item from the Stock table
+sellitem, which removes a certain amount of an item from the Stock table
+viewitem, viewstock, and viewtrans, which allow you to view an item's price and quantity or the two tables
+
+The tables will remain unchanged even after you quit the program
+which allows you to change it whenever you want
+
+Challenging parts of this project included finding a good way 
+to sell items as well as finding an efficient way of accessing the
+necessary data.
+
+Some potential areas for improvement would be making a checkout cart 
+that you add items to and then finally check out. Another thing would 
+be to calculate the profits over a period of time based on how much stock
+was added and how much was sold.
